@@ -1,11 +1,11 @@
 #include <iostream>
-using namespace std;
 #include "lib.h"
+using namespace std;
 
 int main()
 {
 
-    char nomi[10][20];
+    char nomi[10] [20];
     char nome[20];
     int posizione = 0;
 
@@ -24,7 +24,7 @@ int main()
     }
     cin >> nome;
 
-    if (find( nomi, nome, posizione))
+    if (find(nomi, nome, posizione))
     {
         cout << posizione;
     }
